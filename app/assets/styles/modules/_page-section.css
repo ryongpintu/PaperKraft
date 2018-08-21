@@ -1,0 +1,20 @@
+.page-section{
+       padding: 2rem 0;
+
+	   @mixin atMedium{
+	   	padding: 4rem 0;
+	   }
+
+&-art-dairy{
+	padding-bottom: 0;
+}
+
+&-paper-structure{
+
+	padding-top: 0;
+}
+
+&-footer{
+	padding-top: 20px;
+}
+}

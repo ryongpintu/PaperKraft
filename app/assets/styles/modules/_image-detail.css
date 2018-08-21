@@ -1,0 +1,68 @@
+.image-detail{
+
+	padding-top: 100px;
+
+	&__image{
+
+		display: block;
+         background-color: white;
+         padding:20px;
+
+	}
+	&__content{
+
+		h1{
+
+			font-size: 2.5rem;
+			color: red;
+			margin-bottom: 30px;
+		}
+
+		p{
+
+			padding-right: 100px;
+			line-height: 1.5;
+		}
+	}
+
+         .btn__business-hour{
+
+         	padding:10px 15px;
+         	background-color: red;
+         	border-radius: 8px;
+
+         	
+         }
+         a{
+         		text-decoration: none;
+         		color: white;
+         	}
+
+
+         	.btn-container{
+         		margin-top: 80px;
+         	}
+
+     &__cover-page{
+		position: relative;
+		margin-top: -120px;
+        height: 400px;
+        width: 100%;
+		background:linear-gradient(to bottom ,#82b0e8db, #32aed67a, #a3c8f77d), url('../../assets/images/cover-page.jpg') top center no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+	}
+
+	&__cover-page-title{
+
+        color: red;
+        font-family: jokerman;
+         font-size: 4rem;
+         text-shadow: 3px 3px 3px rgba(255,255,255,.5);
+         font-weight: 400;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+	}
+}

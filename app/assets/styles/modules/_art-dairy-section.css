@@ -1,0 +1,59 @@
+.art-dairy-section{
+	position: relative;
+
+	&__content{
+        
+		width: 100%;
+		height:500px;
+		display: block;
+		background-color: white;
+		box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+		margin-bottom: 50px;
+
+
+	}
+  
+	&__images{
+		
+		display: block;
+		width: 100%;
+		overflow: hidden;
+        transform: scale(1);
+        transition: all .3s ease-out;
+
+         
+         img{
+          height: 350px;
+          width: 100%;
+          object-fit: fill;
+          
+         }
+
+         &:hover{
+
+         transform: scale(1.05);
+
+
+
+			
+		}
+	}
+
+	&__images-info{
+		position: relative;
+		z-index: 2;
+		display: block;
+		padding:20px 20px;
+
+	}
+
+	&__content-title{
+
+		font-size: 1.5rem;
+		color: red;
+		margin-bottom: 10px;
+
+	}
+
+
+}

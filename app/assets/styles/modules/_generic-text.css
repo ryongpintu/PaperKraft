@@ -1,0 +1,30 @@
+.generic-text{
+
+	p{
+
+		font-size: .9rem;
+		color: rgba(0,0,0,.7);
+		line-height: 1.2;
+
+		
+		
+	}
+
+	&__title{
+		font-size: 2.5rem;
+	}
+  
+	h4{
+		color: red;
+	}
+
+	&__footer{
+		p{
+			color: rgba(255,255,255,.8);
+			margin-top: 10px;
+			font-size: .8rem;
+			margin-bottom: 10px;
+
+		}
+	}
+}

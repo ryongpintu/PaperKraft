@@ -1,0 +1,17 @@
+.section-title{
+
+	    font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        color: rgba(0,0,0,.7);
+	
+
+	&__bar{
+        display: block;
+		font-size: 4rem;
+		color: rgba(0,0,0,.4);
+		text-align: center;
+		margin-top: -50px;
+		margin-bottom: 50px;
+	}
+}

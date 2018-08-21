@@ -1,0 +1,33 @@
+.primary-nav{
+   
+	ul{
+		margin:0;
+		padding:0;
+		display: block;
+		
+	}
+
+	&__left{
+
+		li{
+         margin-top: 20px;
+		list-style: none;
+		float: right;
+		margin-right: 30px;
+
+		
+		a{ color: white;
+			text-decoration: none;
+		}
+
+		&:hover{
+
+			a{
+				color: yellow;
+			}
+		}
+	}
+	}
+
+	
+}

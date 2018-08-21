@@ -1,0 +1,113 @@
+.home-section{
+
+
+	height: 100vh;
+	width: 100%;
+	background:linear-gradient(to bottom ,#82b0e8db, #32aed67a, #a3c8f77d);
+    background-size:cover;
+
+
+    
+
+	&__text-content{
+     width: fit-content;
+     
+      text-align: center;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-40%);
+
+
+	}
+
+    &__title{
+        color: white;
+        font-style: bold;
+    	font-size: 2.2rem;
+    	padding-bottom: 20px;
+    	font-weight: 400;
+        text-shadow: 4px 4px 4px rgba(0,0,0,.6);
+        font-family: jokerman;
+
+    	@mixin atMedium{
+
+    		font-size: 4.2rem;
+    		padding-bottom: 50px;
+            font-weight: 800;
+    	}
+
+    }
+    
+
+    &__subtitle{
+        color: white;
+    	font-size: 1.5rem;
+    	margin-bottom: 10px;
+    	font-weight: 400;
+        font-family: jokerman;
+
+    	@mixin atMedium{
+    	font-size: 2rem;
+    	margin-bottom: 20px;
+    	}
+    }
+
+    &__categories{
+    	@mixin clearfix;
+
+        margin-top: 35px;
+    	display: block;
+    	position: relative;
+    	text-align: center;
+        
+    	  @mixin atMedium{
+            display: inline-block;
+    		margin-top: 50px;
+    	}
+
+        a{
+            text-decoration: none;
+
+        }
+    }
+
+    &__box{
+        cursor: pointer;
+    	height: 90px;
+    	
+    	border-radius: 15px;
+    	text-align: center;
+        margin-bottom: 10px;
+    	
+    	display: block;
+    	font-size: 1.8rem;
+    	color: red;
+    	background :rgba(255,255,255,.8);
+    	box-shadow: 4px 4px 4px rgba(0,0,0,.6);
+        
+    	@mixin atMedium{
+        height: 150px;
+    	width: 160px;
+    	margin-right: 50px;
+        float: left;
+        
+
+    	}
+
+
+
+    }
+
+    &__box-title{
+        font-size: 1.5rem;
+        font-family: jokerman;
+        padding:20px 5px;
+        text-shadow: 3px 3px 3px rgba(0,0,0,.6);
+         
+         @mixin atMedium{
+            padding-top:10px;
+            font-size: 1.95rem;
+         }
+    }
+}

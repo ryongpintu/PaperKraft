@@ -1,0 +1,22 @@
+.wrapper{
+
+	max-width: 1236px;
+	overflow: hidden;
+	padding-left: 18px;
+	padding-right: 18px;
+	margin-right: auto;
+	margin-left: auto;
+
+	&__centered{
+
+		max-width: 1100px;
+
+	}
+
+	&__narrow{
+
+		max-width: 700px;
+		margin-right: auto;
+	    margin-left: auto;
+	}
+}
