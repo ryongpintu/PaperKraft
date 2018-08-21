@@ -33,18 +33,18 @@
       <div class="image-detail page-section">
 
       	<div class="image-detail__cover-page">
-      		<h1 class="image-detail__cover-page-title">Coat Hanger</h1>
+      		<h1 class="image-detail__cover-page-title"><?php echo $_GET['name'] ;?></h1>
       	</div>
       	<div  class="wrapper wrapper__centered">
       		<div class="row row--gutters-large generic-text ">
       			<div class="row__medium-6 row__medium-6-small">
       				<div class="image-detail__image">
-      				  <img src="assets/images/Art_Diary/AD1.jpg" >
+      				  <img src="assets/images/Art_Diary/<?php echo $_GET['image_name'] ;?>" >
       			    </div>
       			</div>
 	      	<div class="row__medium-6 row__medium-6-large">
 	      		<div class="image-detail__content">
-		      		<h1 class="image-detail__title"> Coat Hanger</h1>
+		      		<h1 class="image-detail__title"> <?php echo $_GET['name'] ;?></h1>
 		      		<p class="generic-text__description">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque</p>
 		      		<p class="generic-text__description">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque</p>
 		      	</div>

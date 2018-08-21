@@ -11,7 +11,8 @@
 
 &-paper-structure{
 
-	padding-top: 0;
+	padding-bottom: 0;
+	background-color:#2f5572; 
 }
 
 &-footer{
