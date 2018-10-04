@@ -200,7 +200,7 @@ img{
 .art-dairy-section{
 	position: relative;
 
-
+	
 }
 
 .art-dairy-section__content{
@@ -256,6 +256,23 @@ img{
 		color: red;
 		margin-bottom: 10px;
 
+	}
+
+.paper-structure__btn-box{
+	background-color: red;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.paper-structure__btn-box-more{
+		text-decoration: none;
+		color: white;
 	}
 
 .row{
@@ -389,7 +406,7 @@ img{
 	
 	width: 100%;
 	height: 70px;
-      background-color: #82b0e8db;
+  background-color: #82b0e8db;
 	  z-index: 100;
 }
 
@@ -586,6 +603,16 @@ img{
         margin-bottom: 2rem;
 	}
 
+.image-detail__shop-cover-page{
+        position: relative;
+        margin-top: -120px;
+        height: 400px;
+        width: 100%;
+        background:linear-gradient(to bottom ,#82b0e8db, #32aed67a, #a3c8f77d), url('../../assets/images/shop.jpg') top center no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+
 .image-detail__cover-page-title{
 
         color: red;
@@ -598,6 +625,13 @@ img{
         left: 50%;
         transform: translate(-50%,-50%);
 	}
+
+.btn{
+
+	
+	background-color: red;
+	text-decoration: none;
+}
 
 .business-hour{
     position: relative;
@@ -674,3 +708,5 @@ img{
 		margin-top: 10px;
         
 	    }
+
+

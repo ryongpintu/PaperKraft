@@ -2,11 +2,8 @@
 
    @mixin clearfix;
 	margin-bottom: 20px;
-
-
-	
-
-	&--gutters{
+     
+&--gutters{
 	margin-right: -30px;
     }
 

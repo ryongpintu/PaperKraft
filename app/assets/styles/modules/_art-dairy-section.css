@@ -57,5 +57,21 @@
 
 	}
 
+	
+}
 
+.paper-structure__btn-box{
+	background-color: red;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	&-more{
+		text-decoration: none;
+		color: white;
+	}
 }

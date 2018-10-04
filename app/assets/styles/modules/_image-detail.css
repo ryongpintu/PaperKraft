@@ -68,6 +68,17 @@
         margin-bottom: 2rem;
 	}
 
+&__shop-cover-page{
+        position: relative;
+        margin-top: -120px;
+        height: 400px;
+        width: 100%;
+        background:linear-gradient(to bottom ,#82b0e8db, #32aed67a, #a3c8f77d), url('../../assets/images/shop.jpg') top center no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+
+
 	&__cover-page-title{
 
         color: red;
