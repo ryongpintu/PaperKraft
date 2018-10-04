@@ -30,6 +30,7 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
      '!./app/art-dairy-see-more.html',
     '!./app/artist-trading-see-more.html',
     '!./app/paper-structure-see-more.html',
+    '!./app/shop-layout.html',
     '!./app/assets/images/**',
     '!./app/assets/styles/**',
     '!./app/assets/scripts/**',
@@ -59,7 +60,7 @@ gulp.task('useminTrigger',['deleteDistFolder'], function(){
 gulp.task('usemin', ['styles'], function() {
   return gulp.src(['./app/index.html','./app/detailPage.html',
     './app/business-hour.html','./app/art-dairy-see-more.html',
-    './app/artist-trading-see-more.html','./app/paper-structure-see-more.html'])
+    './app/artist-trading-see-more.html','./app/paper-structure-see-more.html','./app/shop-layout.html'])
     .pipe(usemin({
       css: [function() {return rev()}, function() {return cssnano()}],
      
